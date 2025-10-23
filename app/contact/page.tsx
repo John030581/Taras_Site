@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send } from "lucide-react"
+import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send, MessageCircle } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
 
@@ -69,7 +69,7 @@ export default function ContactPage() {
                           href="mailto:taras@blockchain.dev"
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          taras@blockchain.dev
+                          havurataras@gmail.com
                         </a>
                       </div>
                     </div>
@@ -82,7 +82,7 @@ export default function ContactPage() {
                           href="tel:+1234567890"
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          +1 (234) 567-890
+                          (+380) 68 557 8670
                         </a>
                       </div>
                     </div>
@@ -92,9 +92,9 @@ export default function ContactPage() {
                       <div>
                         <p className="font-semibold">Location</p>
                         <p className="text-muted-foreground">
-                          San Francisco, CA
+                          Kyiv, Ukraine
                           <br />
-                          United States
+                          Ukraine
                         </p>
                       </div>
                     </div>
@@ -110,29 +110,37 @@ export default function ContactPage() {
                   <h3 className="text-lg font-semibold">Follow Me</h3>
                   <div className="flex gap-4">
                     <Link
-                      href="https://github.com"
+                      href="https://github.com/John030581"
                       target="_blank"
                       className="p-3 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
                     >
                       <Github className="h-5 w-5" />
                       <span className="sr-only">GitHub</span>
                     </Link>
-                    <Link
+                    {/* <Link
                       href="https://linkedin.com"
                       target="_blank"
                       className="p-3 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
                     >
                       <Linkedin className="h-5 w-5" />
                       <span className="sr-only">LinkedIn</span>
-                    </Link>
+                    </Link> */}
                     <Link
+                      href="https://t.me/@STE31STE"
+                      target="_blank"
+                      className="p-3 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
+                    >
+                      <MessageCircle className="h-5 w-5" />
+                      <span className="sr-only">Telegram</span>
+                    </Link>
+                    {/* <Link
                       href="https://twitter.com"
                       target="_blank"
                       className="p-3 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
                     >
                       <Twitter className="h-5 w-5" />
                       <span className="sr-only">Twitter</span>
-                    </Link>
+                    </Link> */}
                   </div>
                 </CardContent>
               </Card>
