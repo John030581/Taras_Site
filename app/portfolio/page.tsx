@@ -113,12 +113,12 @@ export default function PortfolioPage() {
 
                   {/* Links */}
                   <div className="flex gap-3 pt-2">
-                    <Button asChild variant="outline" size="sm" className="gap-2 bg-transparent">
+                    {/* <Button asChild variant="outline" size="sm" className="gap-2 bg-transparent">
                       <Link href={project.github} target="_blank">
                         <Github className="h-4 w-4" />
                         Code
                       </Link>
-                    </Button>
+                    </Button> */}
                     <Button asChild size="sm" className="gap-2">
                       <Link href={project.demo} target="_blank">
                         <ExternalLink className="h-4 w-4" />

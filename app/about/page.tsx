@@ -56,15 +56,15 @@ export default function AboutPage() {
                   <div className="flex justify-between items-start flex-wrap gap-2">
                     <div>
                       <h3 className="text-xl font-semibold">Senior Blockchain Developer</h3>
-                      <p className="text-primary">DeFi Protocol Labs</p>
+                      <p className="text-primary">Fiverr</p>
                     </div>
-                    <span className="text-sm text-muted-foreground">2022 - Present</span>
+                    <span className="text-sm text-muted-foreground">2024 - Present</span>
                   </div>
                   <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                    <li>Led development of a $50M+ TVL DeFi lending protocol</li>
-                    <li>Architected and deployed 15+ smart contracts on Ethereum mainnet</li>
-                    <li>Reduced gas costs by 40% through optimization techniques</li>
-                    <li>Conducted security audits and implemented best practices</li>
+                    <li>Developed DeFi platforms and launchpads such as Pinksale and Pump.fun</li>
+                    <li>Built ETH-Solana cross-chain bridges utilizing LayerZero and Wormhole</li>
+                    <li>Successfully launched a Pinksale-like launchpad on Solana network</li>
+                    <li>Developed various gaming applications such as faffles, betting, coin flip, etc</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -76,16 +76,16 @@ export default function AboutPage() {
                 <CardContent className="p-6 space-y-3">
                   <div className="flex justify-between items-start flex-wrap gap-2">
                     <div>
-                      <h3 className="text-xl font-semibold">Blockchain Engineer</h3>
-                      <p className="text-primary">NFT Marketplace Inc</p>
+                      <h3 className="text-xl font-semibold">DeFi Specialist</h3>
+                      <p className="text-primary">JB Tech</p>
                     </div>
-                    <span className="text-sm text-muted-foreground">2020 - 2022</span>
+                    <span className="text-sm text-muted-foreground">2022 - 2024</span>
                   </div>
                   <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                    <li>Built NFT marketplace with $10M+ in trading volume</li>
-                    <li>Implemented ERC-721 and ERC-1155 token standards</li>
-                    <li>Integrated IPFS for decentralized storage</li>
-                    <li>Developed Web3 frontend with React and ethers.js</li>
+                    <li>Managed various kinds of DeFi projects such as yield farming, Olympus, NFT staking and more</li>
+                    <li>Handled some tomb finance forked projects on various EVM networks</li>
+                    <li>Developed and tested various ways of Interacting with contracts using different libraries and methods</li>
+                    <li>Built JavaScript frontend integrated Web3.js and Ethers.js</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -97,16 +97,16 @@ export default function AboutPage() {
                 <CardContent className="p-6 space-y-3">
                   <div className="flex justify-between items-start flex-wrap gap-2">
                     <div>
-                      <h3 className="text-xl font-semibold">Smart Contract Developer</h3>
-                      <p className="text-primary">Crypto Ventures</p>
+                      <h3 className="text-xl font-semibold">Blockchian developer</h3>
+                      <p className="text-primary">Freelancer</p>
                     </div>
-                    <span className="text-sm text-muted-foreground">2019 - 2020</span>
+                    <span className="text-sm text-muted-foreground">2020 - 2022</span>
                   </div>
                   <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                    <li>Developed and deployed 20+ smart contracts</li>
+                    <li>Developed and deployed various smart contracts for various projects</li>
                     <li>Created automated testing suites with Hardhat</li>
                     <li>Participated in multiple successful token launches</li>
-                    <li>Collaborated with cross-functional teams</li>
+                    <li>Worked on various projects such as NFT marketplaces, DeFi protocols, etc</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -127,12 +127,12 @@ export default function AboutPage() {
               <CardContent className="p-6 space-y-3">
                 <div className="flex justify-between items-start flex-wrap gap-2">
                   <div>
-                    <h3 className="text-xl font-semibold">Master of Science in Computer Science</h3>
-                    <p className="text-secondary">Technical University</p>
+                    <h3 className="text-xl font-semibold">Bachelor of Science in Computer Applications</h3>
+                    <p className="text-secondary">Mariupol University</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">2017 - 2019</span>
+                  <span className="text-sm text-muted-foreground">2016 - 2020</span>
                 </div>
-                <p className="text-muted-foreground">Specialized in Distributed Systems and Cryptography</p>
+                <p className="text-muted-foreground">Specialized in blockchain and Computer Applications and Programming</p>
               </CardContent>
             </Card>
           </div>
