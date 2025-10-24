@@ -82,7 +82,7 @@ export default function HomePage() {
               </Button>
             </div>
 
-            <div
+            {/* <div
               className="flex gap-4 justify-center lg:justify-start opacity-0 animate-fade-in"
               style={{ animationDelay: "800ms", animationFillMode: "forwards" }}
             >
@@ -110,7 +110,7 @@ export default function HomePage() {
                 <Twitter className="h-6 w-6" />
                 <span className="sr-only">Twitter</span>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div
